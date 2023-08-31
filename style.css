@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Serif+Display:ital@0;1&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+body {
+    background-color: #d3dbd9;
+    margin: 35px;
+    overflow: hidden;
+}
+.text-1 {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background-color: #a4bdbc;
+    padding: 10px;
+    padding-right: 18px;
+    border-radius: 3px;
+}
+.text-2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 50px;
+}
+.day-1, .day-2, .day-3, .day-4, .day-5, .day-6, .day-7 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px; 
+}
+.weather, .habit-tracker {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -52px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+.habit-tracker {
+    margin-left: 50vw;
+}
+.day-5, .day-6, .day-7 {
+    margin-left: 50vw;
+}
+.day-1 {
+    margin-top: 60px;
+}
+#d1, #d2, #d3, #d4, #d5, #d6, #d7 {
+    width: 550px;
+    height: 62px;
+    margin-bottom: -35px;
+}
+.day-5 {
+    margin-top: -442px;
+}
+footer {
+    margin-left: 800px;
+    margin-top: 65px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+p {
+    margin-bottom: 2px;
+}
+textarea {
+    resize: none;   
+    background-color:#fff0e7;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.sun, .cloudsun, .rainbow, .umbrella, .cloud {
+    margin-left: 340px;
+    position: relative;
+    margin-top: -47px;
+}
+.cloudsun, .rainbow, .umbrella, .cloud {
+    margin-left: 20px;
+}
+form {
+    position: absolute;
+    margin-top: -27px;
+}
+.habit-1 {
+    margin-left: 900px;
+    position: relative;
+}
+.habit-2, .habit-3, .habit-4, .habit-5, .habit-6, .habit-7 {
+    margin-left: 25px;
+}
+.button1 {
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 22px;
+}
+.button2 {
+    position: absolute; 
+    margin-top: 22px;
+    margin-left: -218px;
+}
+.button3 {
+    position: absolute; 
+    margin-top: 22px;
+    margin-left: -173px;
+}
+.button4 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -129px;
+}
+.button5 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -88px;
+}
+.button6 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -50px;
+}
+.button7 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -10px;
+}
+.bt1 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -188px;
+}
+.bt2 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -146px;
+}
+.bt3 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -103px;
+}
+.bt4 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -58px;
+}
+.bt5 {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -15px;
+}
