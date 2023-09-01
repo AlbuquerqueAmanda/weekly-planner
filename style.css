@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 body {
     background-color: #d3dbd9;
-    margin: 35px;
+    margin: 20px;
+    margin-left: 55px;
     overflow: hidden;
 }
-.text-1 {
+h1 {
     font-family: 'Caveat', cursive;
     font-weight: bold;
     letter-spacing: 2px;
@@ -14,28 +15,38 @@ body {
     padding: 10px;
     padding-right: 18px;
     border-radius: 3px;
+    width: 140px;
+    height: 47px;
 }
-.text-2 {
+h2 {
     font-family: 'Lobster', cursive;
     font-size: 40px;
     position: absolute;
-    margin-left: -140px;
+    margin-left: 20px;
     margin-top: 50px;
     text-shadow: 2px 2px 2px #ff9a52;
+    margin-top: -40px;
+}
+.name-habit {
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: -84px;
+    width: 185px;
+    background-color: #ffbf91;
 }
 .day-1, .day-2, .day-3, .day-4, .day-5, .day-6, .day-7 {
     font-family: 'Caveat', cursive;
     font-size: 30px; 
 }
-.weather, .habit-tracker {
+h3, h4 {
     position: absolute;
-    margin-left: 200px;
-    margin-top: -52px;
+    margin-left: 275px;
+    margin-top: -92px;
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 40px;
 }
-.habit-tracker {
+h4 {
     margin-left: 50vw;
 }
 .day-5, .day-6, .day-7 {
@@ -44,7 +55,7 @@ body {
 .day-1 {
     margin-top: 60px;
 }
-#d1, #d2, #d3, #d4, #d5, #d6, #d7 {
+.d1, .d2, .d3, .d4, .d5, .d6, .d7 {
     width: 550px;
     height: 62px;
     margin-bottom: -35px;
@@ -73,9 +84,8 @@ textarea {
     letter-spacing: 1px;
 }
 .sun, .cloudsun, .rainbow, .umbrella, .cloud {
-    margin-left: 340px;
+    margin-left: 240px;
     position: relative;
-    margin-top: -47px;
 }
 .cloudsun, .rainbow, .umbrella, .cloud {
     margin-left: 20px;
@@ -85,68 +95,68 @@ form {
     margin-top: -27px;
 }
 .habit-1 {
-    margin-left: 900px;
+    margin-left: 50vw;
     position: relative;
 }
 .habit-2, .habit-3, .habit-4, .habit-5, .habit-6, .habit-7 {
     margin-left: 25px;
 }
-.button1 {
+#button1 {
     position: absolute;
     margin-left: -260px;
     margin-top: 22px;
 }
-.button2 {
+#button2 {
     position: absolute; 
     margin-top: 22px;
     margin-left: -218px;
 }
-.button3 {
+#button3 {
     position: absolute; 
     margin-top: 22px;
     margin-left: -173px;
 }
-.button4 {
+#button4 {
     position: absolute;
     margin-top: 22px;
     margin-left: -129px;
 }
-.button5 {
+#button5 {
     position: absolute;
     margin-top: 22px;
     margin-left: -88px;
 }
-.button6 {
+#button6 {
     position: absolute;
     margin-top: 22px;
     margin-left: -50px;
 }
-.button7 {
+#button7 {
     position: absolute;
     margin-top: 22px;
     margin-left: -10px;
 }
-.bt1 {
+#bt1 {
     position: absolute;
     margin-top: 22px;
     margin-left: -188px;
 }
-.bt2 {
+#bt2 {
     position: absolute;
     margin-top: 22px;
     margin-left: -146px;
 }
-.bt3 {
+#bt3 {
     position: absolute;
     margin-top: 22px;
     margin-left: -103px;
 }
-.bt4 {
+#bt4 {
     position: absolute;
     margin-top: 22px;
     margin-left: -58px;
 }
-.bt5 {
+#bt5 {
     position: absolute;
     margin-top: 22px;
     margin-left: -15px;
